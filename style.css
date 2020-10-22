@@ -1,0 +1,106 @@
+/* Google Fonts for Webpage */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header & Footer Style */
+header,
+footer {
+  background: #130303;
+  color: #f5853f;
+  text-align: center;
+}
+header {
+  height: 100px;
+}
+/* Nav Bar Style */
+nav {
+  text-align: right;
+  padding-right: 20px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+/* Body Style */
+body {
+  background: #ffcdbc;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #7c3626;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Section Style */
+section {
+  /* background-color: red; */
+  margin: 60px 400px;
+  padding: 40px;
+}
+/* Heading Style */
+h1 {
+  font-family: "Staatliches", cursive;
+  padding: 5px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: lighter;
+}
+h3 {
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #2d080a;
+}
+/* End Heading Style */
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #7c3626;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* Link Styles*/
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #e9775d;
+}
+a:visited {
+  color: #ca3c25;
+}
+a:hover {
+  color: #3a4f41;
+}
+a:active {
+  color: #561910;
+}
+/* End of Link Styles */
+/* Image Style */
+img {
+  margin: 50px;
+  height: 610px;
+}
+/* Image Centering */
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* List Styles*/
+.liststyle {
+  list-style-position: inside;
+}
+li {
+  text-indent: 20px;
+}
+/* End of List Styles */
+/* HR Style */
+hr {
+  background: #ca3c25;
+  height: 4px;
+  width: 50%;
+  border: none;
+  margin: auto;
+  border-radius: 10px;
+}
